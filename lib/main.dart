@@ -21,3 +21,4 @@ class SoniketeApp extends StatelessWidget {
 // Activación del flujo de compilación
 // Activación final del flujo
 // Activación final con AndroidManifest actualizado
+// Activación final del flujo con estructura completa
