@@ -1,10 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.soniketev2">
+
     <application
         android:label="Sonikete Cofrade"
         android:icon="@mipmap/ic_launcher">
+
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+
         <activity
-            android:name=".MainActivity"
+            android:name="io.flutter.embedding.android.FlutterActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
